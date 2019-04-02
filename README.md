@@ -1,7 +1,7 @@
-#安装python3和pip3
-#安装依赖
+# 安装python3和pip3
+# 安装依赖
 pip3 install -r requirements.txt
-#启动服务
+# 启动服务
 python3 main.py
 # 域名解析配置
 打开域名管理，以阿里云为例，加入两条信息
