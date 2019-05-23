@@ -1,4 +1,4 @@
-# 安装python3和pip3
+# 安装python3.6和pip3
 # 安装依赖
 pip3 install -r requirements.txt
 # 启动服务
