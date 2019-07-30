@@ -66,7 +66,7 @@ class CrazySrvHandler:
         obj = {
             "from": mail_from,
             "to": rcpt_tos,
-            "subject": subject,
+            "subject": str(subject),
             "content": content
         }
 
