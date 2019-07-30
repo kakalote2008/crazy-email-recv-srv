@@ -19,6 +19,7 @@ def index():
 @app.route('/all')
 def msg_all():
     rows = dao.read_all()
+    rows = rows.decode('utf-8')
     return json.dumps(rows)
 
 
