@@ -61,7 +61,7 @@ class CrazySrvHandler:
         rcpt_tos = envelope.rcpt_tos
         message = email.message_from_bytes(envelope.content)
         content = print_info(message)
-        subject = decode_str(message['Subject'])
+        subject = decode_str(str(message['Subject']))
 
         obj = {
             "from": mail_from,
