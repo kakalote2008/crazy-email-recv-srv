@@ -13,9 +13,9 @@ A	mx	 103.216.2xx.1xx
 
 加入一条MX记录，指向上面配置的收邮件的域名地址。
 ```
-MX	*	mx.tanyuelab.top
+MX	*	mx.miniprogram.work
 ```
 
-> 然后所有发送给xxxx@mx.tanyuelab.top的邮件都会被收到了
+> 然后所有发送给xxxx@mx.miniprogram.work的邮件都会被收到了
 
 
